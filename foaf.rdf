@@ -1,0 +1,35 @@
+
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">;
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>;
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>;
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Fatima Ezzahra Lataoui</foaf:name>
+<foaf:title>Mme</foaf:title>
+<foaf:givenname>Fatima Ezzahra</foaf:givenname>
+<foaf:family_name>Lataoui</foaf:family_name>
+<foaf:nick>Fati Fleur</foaf:nick>
+<foaf:mbox rdf:resource="mailto:fatilataoui@gmail.com"/>
+<foaf:homepage rdf:resource="fatifleur.com"/>
+<foaf:phone rdf:resource="tel:+2120000"/>
+<foaf:workplaceHomepage rdf:resource="http://www.serli.com"/>
+<foaf:workInfoHomepage rdf:resource="http://www.serli.com"/>
+<foaf:schoolHomepage rdf:resource="https://entfront.univ-lr.fr"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>HB</foaf:name>
+<foaf:mbox rdf:resource="mailto:fatilataoui@gmail.com"/></foaf:Person></foaf:knows>;
+<foaf:knows>
+<foaf:Person>
+<foaf:name>HH</foaf:name>
+<foaf:mbox rdf:resource="mailto:fatilataoui@gmail.com"/></foaf:Person></foaf:knows></foaf:Person>;
+</rdf:RDF>
+
+ 
